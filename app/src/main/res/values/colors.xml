@@ -81,4 +81,5 @@
 	<color name="texte_secondaire">#757575</color>
 	<color name="erreur">#F44336</color>
 	<color name="gris_clair">#E0E0E0</color>
+	<color name="transparent">#00000000</color>
 </resources>
