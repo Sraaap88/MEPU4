@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- ✅ IDs CORRIGÉS pour correspondre au nav_graph.xml -->
+    <item
+        android:id="@+id/accueilFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Accueil" />
+        
+    <item
+        android:id="@+id/routineFragment"
+        android:icon="@drawable/ic_routines"
+        android:title="Routines" />
+        
+    <!-- ✅ AJOUT : Habitudes dans le menu principal -->
+    <item
+        android:id="@+id/habitudeFragment"
+        android:icon="@drawable/ic_habitudes"
+        android:title="Habitudes" />
+        
+    <item
+        android:id="@+id/humeurFragment"
+        android:icon="@drawable/ic_humeur"
+        android:title="Humeur" />
+        
+    <item
+        android:id="@+id/jungleFragment"
+        android:icon="@drawable/ic_jungle"
+        android:title="Jungle" />
+        
+</menu>

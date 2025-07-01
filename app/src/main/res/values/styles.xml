@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Style principal de l'application -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/primaire</item>
+        <item name="colorPrimaryVariant">@color/primaire_sombre</item>
+        <item name="colorOnPrimary">@color/blanc</item>
+        <item name="colorSecondary">@color/secondaire</item>
+        <item name="colorSecondaryVariant">@color/secondaire_sombre</item>
+        <item name="colorOnSecondary">@color/blanc</item>
+        <item name="android:colorBackground">@color/fondPastel</item>
+        <item name="colorOnBackground">@color/texte_primaire</item>
+        <item name="colorSurface">@color/blanc</item>
+        <item name="colorOnSurface">@color/texte_primaire</item>
+        <item name="colorError">@color/erreur</item>
+        <item name="colorOnError">@color/blanc</item>
+    </style>
+
+    <!-- Style pour les boutons principaux -->
+    <style name="BoutonPrincipal" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/primaire</item>
+        <item name="android:textColor">@color/blanc</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:padding">12dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Style pour les boutons secondaires -->
+    <style name="BoutonSecondaire" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/primaire</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:padding">12dp</item>
+        <item name="strokeColor">@color/primaire</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Style pour les titres -->
+    <style name="TitrePrincipal">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/primaire</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <!-- Style pour les sous-titres -->
+    <style name="SousTitre">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/texte_primaire</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <!-- Style pour le texte normal -->
+    <style name="TexteNormal">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/texte_primaire</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+    <!-- Style pour les cartes -->
+    <style name="CartePrincipale" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardBackgroundColor">@color/blanc</item>
+    </style>
+
+    <!-- Style pour les icônes -->
+    <style name="IconePrincipale">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:tint">@color/primaire</item>
+    </style>
+
+    <!-- Style pour les champs de saisie -->
+    <style name="ChampSaisie" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textColorHint">@color/texte_secondaire</item>
+        <item name="boxStrokeColor">@color/primaire</item>
+        <item name="hintTextColor">@color/primaire</item>
+    </style>
+
+    <!-- Style pour la barre de navigation -->
+    <style name="BarreNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/blanc</item>
+        <item name="itemIconTint">@color/primaire</item>
+        <item name="itemTextColor">@color/primaire</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    <!-- Style pour la toolbar -->
+    <style name="ToolbarPrincipale" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/primaire</item>
+        <item name="titleTextColor">@color/blanc</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- Style pour les progressbar -->
+    <style name="ProgressBarPrincipal" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="indicatorColor">@color/primaire</item>
+        <item name="trackColor">@color/gris_clair</item>
+        <item name="android:layout_marginVertical">8dp</item>
+    </style>
+
+    <!-- Style pour les badges -->
+    <style name="Badge">
+        <item name="android:background">@drawable/badge_background</item>
+        <item name="android:textColor">@color/blanc</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">20dp</item>
+        <item name="android:minHeight">20dp</item>
+    </style>
+
+    <!-- Style pour les dividers -->
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/gris_clair</item>
+        <item name="android:layout_marginVertical">8dp</item>
+    </style>
+
+    <!-- Style pour les FAB (Floating Action Button) -->
+    <style name="FABPrincipal" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="android:backgroundTint">@color/primaire</item>
+        <item name="tint">@color/blanc</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <!-- Style pour les snackbars -->
+    <style name="SnackbarPrincipal" parent="Widget.Material3.Snackbar">
+        <item name="android:backgroundTint">@color/primaire</item>
+        <item name="actionTextColor">@color/blanc</item>
+    </style>
+
+    <!-- Style pour les switches -->
+    <style name="SwitchPrincipal" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="thumbTint">@color/primaire</item>
+        <item name="trackTint">@color/gris_clair</item>
+    </style>
+
+    <!-- Style pour les checkboxes -->
+    <style name="CheckboxPrincipal" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/primaire</item>
+    </style>
+
+    <!-- Style pour les radio buttons -->
+    <style name="RadioButtonPrincipal" parent="Widget.Material3.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/primaire</item>
+    </style>
+
+</resources>

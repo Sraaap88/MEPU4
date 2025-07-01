@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.moietplusultra">
+
+    <!-- ✅ Permissions optimisées pour Android 10-14 -->
+    
+    <!-- ✅ VIBRATE : Gardé pour compatibilité Huawei P30 Pro -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    
+    <!-- ✅ ALARMES : Essentielles pour les rappels -->
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <!-- ✅ Android 12+ : Permission alarmes exactes -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    
+    <!-- ✅ Ajout permissions Android 10+ si nécessaire -->
+    <!-- Décommentez si vous utilisez le stockage externe : -->
+    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" 
+         android:maxSdkVersion="28" /> -->
+
+    <application
+        android:allowBackup="true"
+        android:label="Moi et Plus Ultra"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MoietPlusUltra"
+        tools:targetApi="31">
+        
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MoietPlusUltra">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

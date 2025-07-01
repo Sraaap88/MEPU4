@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- ✅ Menu hamburger avec les 3 options secondaires -->
+    <item
+        android:id="@+id/progressionFragment"
+        android:icon="@drawable/ic_progression"
+        android:title="Progression"
+        android:showAsAction="never" />
+        
+    <item
+        android:id="@+id/aidemoiFragment"
+        android:icon="@drawable/ic_aidemoi"
+        android:title="Aide-moi"
+        android:showAsAction="never" />
+        
+    <item
+        android:id="@+id/parametresFragment"
+        android:icon="@drawable/ic_parametres"
+        android:title="Paramètres"
+        android:showAsAction="never" />
+        
+</menu>

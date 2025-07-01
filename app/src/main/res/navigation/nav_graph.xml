@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/accueilFragment">
+
+    <fragment
+        android:id="@+id/accueilFragment"
+        android:name="com.moietplusultra.ui.AccueilFragment"
+        android:label="Accueil" />
+    <fragment
+        android:id="@+id/routineFragment"
+        android:name="com.moietplusultra.ui.RoutineFragment"
+        android:label="Routines" />
+    <fragment
+        android:id="@+id/habitudeFragment"
+        android:name="com.moietplusultra.ui.HabitudeFragment"
+        android:label="Habitudes" />
+    <fragment
+        android:id="@+id/humeurFragment"
+        android:name="com.moietplusultra.ui.HumeurFragment"
+        android:label="Humeur" />
+    <fragment
+        android:id="@+id/progressionFragment"
+        android:name="com.moietplusultra.ui.ProgressionFragment"
+        android:label="Progression" />
+    <fragment
+        android:id="@+id/parametresFragment"
+        android:name="com.moietplusultra.ui.ParametresFragment"
+        android:label="Paramètres" />
+    <fragment
+        android:id="@+id/aidemoiFragment"
+        android:name="com.moietplusultra.ui.AideMoiFragment"
+        android:label="Aide-moi" />
+    <fragment
+        android:id="@+id/jungleFragment"
+        android:name="com.moietplusultra.ui.JungleFragment"
+        android:label="Jungle" />
+</navigation>
