@@ -37,9 +37,9 @@ android {
     }
 
 lintOptions {
-        abortOnError false
-        checkReleaseBuilds false
-        quiet true
+        abortOnError = false
+        checkReleaseBuilds = false
+        quiet = true
     }
     // ... le reste de votre config
 
