@@ -12,7 +12,8 @@ import com.moietplusultra.R
 
 object NotificationUtils {
     private const val CHANNEL_ID = "routine_channel"
-
+    
+    @Suppress("MissingPermission")
     fun showNotification(context: Context, title: String, message: String) {
         val soundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
         val notificationBuilder = NotificationCompat.Builder(context, CHANNEL_ID)
