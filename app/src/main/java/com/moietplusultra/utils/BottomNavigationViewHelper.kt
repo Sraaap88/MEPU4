@@ -13,6 +13,6 @@ object BottomNavigationViewHelper {
         navView.itemTextColor = ContextCompat.getColorStateList(context, R.color.bottom_nav_text_selector)
         navView.setBackgroundColor(ContextCompat.getColor(context, R.color.white))
         navView.labelVisibilityMode = BottomNavigationView.LABEL_VISIBILITY_LABELED
-        navView.itemRippleColor = ContextCompat.getColorStateList(context, R.color.ripple_soft)
+      //  navView.itemRippleColor = ContextCompat.getColorStateList(context, R.color.ripple_soft)
     }
 }
