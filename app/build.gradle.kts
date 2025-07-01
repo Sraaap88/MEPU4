@@ -42,7 +42,7 @@ lintOptions {
         quiet true
     }
     // ... le reste de votre config
-}
+
 
 
     // 🔧 Ajout explicite du toolchain pour assurer la compatibilité
