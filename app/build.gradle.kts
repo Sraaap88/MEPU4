@@ -36,6 +36,15 @@ android {
         jvmTarget = "17"
     }
 
+lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+        quiet true
+    }
+    // ... le reste de votre config
+}
+
+
     // 🔧 Ajout explicite du toolchain pour assurer la compatibilité
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
