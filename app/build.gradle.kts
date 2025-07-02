@@ -6,10 +6,6 @@ plugins {
 
 android {
 
-lint {
-        abortOnError = false
-    }
-
     namespace = "com.moietplusultra"
     compileSdk = 34
 
@@ -50,14 +46,6 @@ lint {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-}
-// 🔥 TUEUR DE LINT - À ajouter ici, après le bloc android
-tasks.named("lintDebug") {
-    enabled = false
-}
-
-tasks.named("lintRelease") {
-    enabled = false
 }
 
 dependencies {
