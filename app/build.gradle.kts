@@ -36,7 +36,7 @@ android {
         jvmTarget = "17"
     }
 
-lintOptions {
+lint {
         abortOnError = false
         checkReleaseBuilds = false
         quiet = true
