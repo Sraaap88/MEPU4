@@ -36,12 +36,6 @@ android {
         jvmTarget = "17"
     }
 
-lint {
-        abortOnError = false
-        checkReleaseBuilds = false
-        quiet = true
-    }
-    // ... le reste de votre config
 
 
 
