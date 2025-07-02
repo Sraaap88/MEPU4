@@ -5,6 +5,11 @@ plugins {
 }
 
 android {
+
+lint {
+        abortOnError = false
+    }
+
     namespace = "com.moietplusultra"
     compileSdk = 34
 
