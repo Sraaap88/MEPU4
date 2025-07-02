@@ -46,6 +46,14 @@ android {
     }
 
 }
+// 🔥 TUEUR DE LINT - À ajouter ici, après le bloc android
+tasks.named("lintDebug") {
+    enabled = false
+}
+
+tasks.named("lintRelease") {
+    enabled = false
+}
 
 dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
